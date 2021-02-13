@@ -1,0 +1,23 @@
+{
+    "name": "derelict-ode",
+    "description": "A dynamic binding to the Open Dynamics Engine physics library..",
+    "homepage": "https://github.com/DerelictOrg/DerelictODE",
+    "license": "Boost",
+    "authors": ["Mike Parker"],
+    "targetType": "library",
+    "targetPath": "lib",
+    "targetName": "DerelictODE",
+    "dependencies": {
+        "derelict-util": "~>3.0.0-beta.1"
+    },
+    "configurations": [
+        {
+            "name": "ode-single",
+            "versions": ["DerelictODE_Single"]
+        },
+        {
+            "name": "ode-double",
+            "versions": ["DerelictODE_Double"]
+        }
+    ]
+}
