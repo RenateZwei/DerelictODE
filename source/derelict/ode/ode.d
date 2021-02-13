@@ -167,7 +167,7 @@ class DerelictODELoader : SharedLibLoader {
         bindFunc(cast(void**)&dGeomTriMeshDataDestroy, "dGeomTriMeshDataDestroy");
         bindFunc(cast(void**)&dGeomTriMeshDataSet, "dGeomTriMeshDataSet");
         bindFunc(cast(void**)&dGeomTriMeshDataGet, "dGeomTriMeshDataGet");
-        bindFunc(cast(void**)&dGeomTriMeshDataGet2, "dGeomTriMeshDataGet2");
+        //bindFunc(cast(void**)&dGeomTriMeshDataGet2, "dGeomTriMeshDataGet2");
         bindFunc(cast(void**)&dGeomTriMeshSetLastTransform, "dGeomTriMeshSetLastTransform");
         bindFunc(cast(void**)&dGeomTriMeshGetLastTransform, "dGeomTriMeshGetLastTransform");
         bindFunc(cast(void**)&dGeomTriMeshDataBuildSingle, "dGeomTriMeshDataBuildSingle");
@@ -455,7 +455,7 @@ class DerelictODELoader : SharedLibLoader {
         bindFunc(cast(void**)&dJointSetSliderParam, "dJointSetSliderParam");
         bindFunc(cast(void**)&dJointAddSliderForce, "dJointAddSliderForce");
         bindFunc(cast(void**)&dJointSetHinge2Anchor, "dJointSetHinge2Anchor");
-        bindFunc(cast(void**)&dJointSetHinge2Axes, "dJointSetHinge2Axes");
+        //bindFunc(cast(void**)&dJointSetHinge2Axes, "dJointSetHinge2Axes");
         bindFunc(cast(void**)&dJointSetHinge2Param, "dJointSetHinge2Param");
         bindFunc(cast(void**)&dJointAddHinge2Torques, "dJointAddHinge2Torques");
         bindFunc(cast(void**)&dJointSetUniversalAnchor, "dJointSetUniversalAnchor");

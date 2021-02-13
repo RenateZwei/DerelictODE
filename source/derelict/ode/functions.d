@@ -170,7 +170,7 @@ extern(C) @nogc nothrow {
     alias da_dGeomTriMeshDataDestroy = void function(dTriMeshDataID);
     alias da_dGeomTriMeshDataSet = void function(dTriMeshDataID,int,void*);
     alias da_dGeomTriMeshDataGet = void* function(dTriMeshDataID,int);
-    alias da_dGeomTriMeshDataGet2 = void* function(dTriMeshDataID,int,size_t*);
+    //alias da_dGeomTriMeshDataGet2 = void* function(dTriMeshDataID,int,size_t*);
     alias da_dGeomTriMeshSetLastTransform = void function(dGeomID,ref dMatrix4);
     alias da_dGeomTriMeshGetLastTransform = const(dReal)* function(dGeomID);
     alias da_dGeomTriMeshDataBuildSingle = void function(dTriMeshDataID,const(void)*,int,int,const(void)*,int,int);
@@ -787,7 +787,7 @@ __gshared {
     da_dGeomTriMeshDataDestroy dGeomTriMeshDataDestroy;
     da_dGeomTriMeshDataSet dGeomTriMeshDataSet;
     da_dGeomTriMeshDataGet dGeomTriMeshDataGet;
-    da_dGeomTriMeshDataGet2 dGeomTriMeshDataGet2;
+    //da_dGeomTriMeshDataGet2 dGeomTriMeshDataGet2;
     da_dGeomTriMeshSetLastTransform dGeomTriMeshSetLastTransform;
     da_dGeomTriMeshGetLastTransform dGeomTriMeshGetLastTransform;
     da_dGeomTriMeshDataBuildSingle dGeomTriMeshDataBuildSingle;
@@ -1066,7 +1066,7 @@ __gshared {
     da_dJointSetSliderParam dJointSetSliderParam;
     da_dJointAddSliderForce dJointAddSliderForce;
     da_dJointSetHinge2Anchor dJointSetHinge2Anchor;
-    da_dJointSetHinge2Axes dJointSetHinge2Axes;
+    //da_dJointSetHinge2Axes dJointSetHinge2Axes;
     da_dJointSetHinge2Param dJointSetHinge2Param;
     da_dJointAddHinge2Torques dJointAddHinge2Torques;
     da_dJointSetUniversalAnchor dJointSetUniversalAnchor;
